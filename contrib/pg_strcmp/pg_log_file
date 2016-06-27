@@ -1,0 +1,16 @@
+LOG:  database system was shut down at 2016-06-26 18:59:56 PDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+ERROR:  database "tt" does not exist
+STATEMENT:  DROP DATABASE tt;
+ERROR:  database "t" does not exist
+STATEMENT:  DROP DATABASE t;
+ERROR:  column "a" does not exist at character 22
+STATEMENT:  select * from strcmp("a", "b");
+ERROR:  syntax error at or near "::" at character 31
+STATEMENT:  select * from strcmp('a', 'a')::text;
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
