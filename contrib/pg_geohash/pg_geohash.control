@@ -1,0 +1,4 @@
+# pg_geohash extension
+comment = 'Geohashing functionality for Greenplum DB, PostgreSQL'
+default_version = '1.0'
+relocatable = true
