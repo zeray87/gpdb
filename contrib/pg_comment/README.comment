@@ -1,0 +1,18 @@
+# pg_person
+# author: Kuien Liu
+# date: 18 April, 2016
+
+It is a test case to verify the potential issue inner GPDB.
+
+Related story:
+	https://www.pivotaltracker.com/story/show/117435173
+
+
+Quickstart:
+	make
+	make install
+	psql demo -f ./pg_person.sql
+
+Usage:
+psql demo
+	\# select '{1,"kain"}'::person;
