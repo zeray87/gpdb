@@ -1,0 +1,4 @@
+# pg_comment xtension
+comment = 'an user defined comment type (for testing varlen types)'
+default_version = '1.0'
+relocatable = true
