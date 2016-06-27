@@ -1,0 +1,4 @@
+#strcmp extension
+comment = 'a demo'
+default_version = '1.0'
+relocatable = true
